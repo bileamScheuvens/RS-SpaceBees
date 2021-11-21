@@ -52,10 +52,10 @@ vp.arrow(pos=vp.vector(0,0,0), axis=vp.vector(0,0,E_radius+min_height), color=vp
 
 
 alpha = np.pi/9
-draw_cones(alpha, 0)
-draw_cones(-alpha, 0)
-draw_cones(alpha,alpha)
-draw_cones(-alpha,alpha)
+draw_cones(ra, 0)
+draw_cones(-ra, 0)
+#draw_cones(alpha,alpha)
+#draw_cones(-alpha,alpha)
 
 
 vp.scene.autoscale = True
